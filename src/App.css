@@ -1,0 +1,47 @@
+.container {
+  width: 1300px;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0 20px; /* Добавляем внутренние отступы */
+  
+}
+
+.blocks {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  width: 100%;
+  
+}
+
+.container h1 {
+  font-size: 46px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.ToDO {
+  flex: 1;
+  display: flex; /* Flexbox для центрирования */
+  flex-direction: column; /* Элементы по вертикали */
+  align-items: center; /* Горизонтальное выравнивание */
+  justify-content: center; /* Вертикальное выравнивание, если нужно */
+  text-align: center; /* Центрирование текста */
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.ToDO img {
+  max-width: 100px;
+  margin-bottom: 20px;
+}
+
+.ToDO h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.ToDO p {
+  color: #666;
+  text-align: center;
+}
